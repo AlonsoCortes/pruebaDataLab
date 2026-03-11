@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expansión de heladerías</title>
+
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Expansión de heladerías</h1>
+  </header>
+
+  <div id="app">
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <span>Colonias por ranking</span>
+        <input type="text" id="search" placeholder="Buscar colonia…" />
+      </div>
+      <ul id="colony-list"></ul>
+      <button id="scroll-top" title="Ir al primer registro" aria-label="Ir al primer registro">↑ Inicio</button>
+    </aside>
+
+    <main id="map"></main>
+
+    <aside id="info-panel">
+      <div id="info-panel-header">
+        <span>Acerca de las clasificaciones</span>
+      </div>
+      <div id="info-panel-body">
+
+        <p class="info-intro">
+          Las colonias de interés se agruparon en cuatro perfiles demográficos mediante un análisis de clúster. Cada perfil representa un segmento de mercado distinto para la expansión de heladerías.
+        </p>
+
+        <div class="info-cluster">
+          <div class="info-cluster-header">
+            <span class="info-swatch" style="background:#22c55e"></span>
+            <strong>Colonias Equilibradas</strong>
+          </div>
+          <p>Colonias con un perfil demográfico equilibrado, en el que ningún grupo de edad sobresale de forma significativa. 
+            Representan un mercado estable y diverso.</p>
+        </div>
+
+        <div class="info-cluster">
+          <div class="info-cluster-header">
+            <span class="info-swatch" style="background:#f59e0b"></span>
+            <strong>Colonias Familiares con niños</strong>
+          </div>
+          <p>Colonias con alta prsencia de población infantil y adoslescente, acompañado de adultos jovenes (familias jovenes).
+            Representan una oportunidad prioritaria para la expansion.
+          </p>
+        </div>
+
+        <div class="info-cluster">
+          <div class="info-cluster-header">
+            <span class="info-swatch" style="background:#3b82f6"></span>
+            <strong>Colonias Adultos Activas</strong>
+          </div>
+          <p>Colonias con predominio de población de entre 30 y 44 años.
+            Este perfil presenta una mayor disposición al gasto debido a su estabilidad laboral.
+          </p>
+        </div>
+
+        <div class="info-cluster">
+          <div class="info-cluster-header">
+            <span class="info-swatch" style="background:#a855f7"></span>
+            <strong>Colonias Mayores</strong>
+          </div>
+          <p>Colonias con una proporción elevada de población adulta mayor.
+            Su perfil representa una estabilidad residencial y rutinas de consumo constantes.
+          </p>
+        </div>
+
+      </div>
+    </aside>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Lógica principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
