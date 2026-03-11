@@ -33,6 +33,5 @@ El análisis integra fuentes de datos abiertos — DENUE, Censo de Población y 
 
 - Python 3.12 — `geopandas`, `pandas`, `scikit-learn`, `matplotlib`
 - Jupyter Notebook
-- QGIS / Folium para visualización geoespacial
-
+- Leaflet para visualización geoespacial
 ---
