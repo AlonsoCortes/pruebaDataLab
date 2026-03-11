@@ -12,10 +12,10 @@ El análisis integra fuentes de datos abiertos — DENUE, Censo de Población y 
 
 
 
-`nb_01_heladerias.ipynb`  Notebook con el procesamiento de datos: carga, limpieza, clustering KMeans y selección de colonias candidatas <br>
+`AlonsoAzaidCortesSolis_Ejercicio1.ipynb`  Notebook con el procesamiento de datos: carga, limpieza, clustering KMeans y selección de colonias candidatas <br>
 `index.html` Visor geográfico interactivo con el ranking de colonias mejor punteadas como sitios de expansión<br>
 `colonias_interes_heladerias.geojson` Capa geoespacial con las colonias de la CDMX y sus atributos de análisis <br>
-`presentacion_ejercicio1.pdf` Presentación ejecutiva de 5 diapositivas con los resultados y conclusiones del análisis <br>
+`AlonsoAzaidCortesSolis_Ejercicio1.pdf` Presentación ejecutiva de 5 diapositivas con los resultados y conclusiones del análisis <br>
 
 ---
 
